@@ -1,4 +1,4 @@
-# 🌿 FloraHeal — Interactive Plant Care and Disease Management Portal
+# FloraHeal — Interactive Plant Care and Disease Management Portal
 
 FloraHeal is a web application that allows users to search for plants and discover the diseases they may be susceptible to, including symptoms, causes, severity levels, and prevention tips.
 
@@ -80,7 +80,7 @@ FloraHeal/
    npm install
    ```
 
-3. Open the `.env` file in VS Code and paste the following into the file, **replacing `your_password_here` with your actual PostgreSQL password**:
+3. Create and name the new file `.env`, and paste the following into the a new file, **replacing `your_password_here` with your actual PostgreSQL password**:
    ```
    PORT=5000
    DB_HOST=localhost
@@ -177,7 +177,7 @@ Then open **http://localhost:3000** in your browser.
 ### "node" or "npm" is not recognized
 → Node.js is not installed or PowerShell needs to be restarted. Close PowerShell, restart it, and try again. If it still doesn't work, reinstall Node.js from https://nodejs.org.
 
-### ❌ Database connection failed: password authentication failed
+### Database connection failed: password authentication failed
 → The password in your `.env` file doesn't match your PostgreSQL password. Open the `.env` file in VS Code and fix the `DB_PASSWORD` line.
 
 ### Error: listen EADDRINUSE: address already in use :::5000
