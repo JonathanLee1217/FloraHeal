@@ -6,7 +6,7 @@ FloraHeal is a web application that allows users to search for plants and discov
 
 ## What You Will Need
 
-Before starting, you need to download and install **3 free programs**. If you already have any of them, skip that step.
+Before starting, you need to download and install **3 programs**. If you already have any of them, skip that step.
 
 ### 1. Node.js (JavaScript Runtime)
 
